@@ -1,5 +1,5 @@
 [#ftl]
-[@c.page title="Veselé Vánoce"]
+[@c.page title="Veselé Vánoce ${year?string.computer}" ]
     [@c.holiday]
     [/@c.holiday]
 [/@c.page]

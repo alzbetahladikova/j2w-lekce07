@@ -1,4 +1,5 @@
 [#ftl]
-[@c.holiday]
-[/@c.holiday]
+[@c.page title="Konec roku ${year?string.computer}"]
+    [@c.holiday]
+    [/@c.holiday]
 [/@c.page]
