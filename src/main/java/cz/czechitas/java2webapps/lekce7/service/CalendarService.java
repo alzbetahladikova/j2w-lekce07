@@ -48,13 +48,13 @@ public class CalendarService {
   /**
    * Compute date of Easter Sunday.
    *
-   * @param year A year between 1900 and 2099.
+   * @param year A currentYear between 1900 and 2099.
    * @return Date of Easter Sunday.
    * @see <a href="https://cs.wikipedia.org/wiki/V%C3%BDpo%C4%8Det_data_Velikonoc">Výpočet data Velikonoc</a>
    */
   private LocalDate easterSunday(int year) {
     if (year < 1900) {
-      throw new IllegalArgumentException("I can't calculate the date of Easter before year 1900.");
+      throw new IllegalArgumentException("I can't calculate the date of Easter before currentYear 1900.");
     }
     int a = year % 19;
     int b = year % 4;

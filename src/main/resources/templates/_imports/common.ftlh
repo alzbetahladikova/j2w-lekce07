@@ -11,11 +11,12 @@
     <body>
     <div class="d-flex flex-column justify-content-center align-items-center min-vh-100">
         <h1>${title}</h1>
-       [#nested /]
+        [#nested ]
     </div>
     </body>
     </html>
 [/#macro]
+
 [#macro holiday]
 <ul>
     [#list calendar as item]
